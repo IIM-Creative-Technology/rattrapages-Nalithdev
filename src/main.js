@@ -216,15 +216,15 @@ et venez chercher votre salade dans 20min !</p>
 </div>
 </div> 
 
-<div class="flex w-full h-screen  items-center bg-[url('./src/asset/61842.jpg')] bg-[length:400px_300px] absolute z-[-2] ">
+<div class="flex w-full h-[120vh]  items-center bg-[url('./src/asset/61842.jpg')] bg-[length:400px_300px] absolute z-[-2] ">
 
-<div class="bg-white opacity-[80%] absolute w-full h-screen z-[-1]">
+<div class="bg-white opacity-[80%] absolute w-full h-[120vh] z-[-1]">
 
 </div>
 </div>
 
 
-<div class=" w-full h-screen opacity-[100%] flex overflow-hidden items-center">
+<div class=" w-full h-[110vh] opacity-[100%] flex overflow-hidden items-center">
 <div class="flex flex-wrap w-[950px] h-[580px] p-8 justify-between">
 <div class="w-[250px] h-[250px] bg-[url('./src/asset/anh-nguyen-_Uqj5BQb-mw-unsplash.jpg')] bg-[length:500px_500px] bg-no-repeat bg-left-top ">
 
@@ -258,14 +258,42 @@ N'hésitez pas à postuler !
 <div class="text-start text-lg text-specialgreen">
 <p class="pb-2">Votre motivation en quelques mots</p>
 <textarea name="" id="" cols="30" rows="10" class="w-[635px] h-[100px] border-2  p-4"></textarea>
+</div>
 </form> 
 
 <div class="pt-12">
-<a href="#" class="text-white text-2xl bg-specialgreen p-4 pl-16 pr-16 rounded-md font-['poppinssemibold'] not-italic font-semibold ">Postuler</a>
+<a href="#" class="text-white text-2xl bg-specialgreen p-4 pl-16 pr-16 mr-40 rounded-md font-['poppinssemibold'] not-italic font-semibold ">Postuler</a>
 </div>
 </div>
 
 </div>
+</div>
+<footer class=" bg-specialgreen h-[300px] w-full text-white text-center">
+<div class="flex justify-around items-center pt-20 text-xl">
+<img src="./src/asset/mangoo.png" alt="Mangoo" class="w-[300px] h-[100px]">
+<div >
+<h2 class=" pb-8 text-3xl">Commander</h2>
+<p >Passer une commande</p>
+<p>Nos menus</p>
+<p>Restaurants</p>
+</div>
+
+<div>
+<h2 class=" pb-8 text-3xl">Informations</h2>
+<p >F.A.Q</p>
+<p>Mentions Légales</p>
+<p>Recrutement</p>
+</div>
+
+<div >
+<h2 class=" pb-8 text-3xl">Nous trouver</h2>
+<p>Facebook</p>
+<p>Twitter</p>
+<p>Instagram</p>
+</div>
+
+
+</footer>
 
 
 `
