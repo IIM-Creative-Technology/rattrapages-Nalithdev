@@ -86,7 +86,7 @@ Alors faites votre choix !</p>
 </div>
 
 </div>
-<div class="w-full h-auto bg-[url('./src/asset/pattern.png')] bg-cover bg-no-repeat relative items-center  ">
+<div class="w-full h-auto bg-[url('./src/asset/pattern.png')] relative bg-[length:1300px_1000px] items-center  ">
 <h2 class="text-6xl text-specialgreen text-center pt-20 font-['poppinssemibold']  font-semi-bold">Vous avez dit menu ?</h2>
 <p class="text-center p-[380px] pb-10 pt-10 text-lg">Un menu MONGOO, c'est une salade accompagnée d'une boisson et d'un dessert.
 Mais attention, pas n'importe quelle boisson et n'importe quel dessert...</p>
@@ -154,7 +154,66 @@ et venez chercher votre salade dans 20min !</p>
 </div>
 </div>
 
+</div>
 
+<div class="w-full bg-[url('./src/asset/louis-hansel-MlPD-AzZYMg-unsplash.jpg')] bg-cover bg-center bg-no-repeat relative items-center  ">
+<div class="flex justify-center p-28 gap-6 pl-20 pr-20 text-white">
+
+<div class="w-[675px] bg-specialgreen/80 h-[460px] p-10">
+<h2 class="text-white text-5xl text-center">Chez les verts</h2>
+<div class="flex justify-evenly p-10 text-lg ">
+<div class="flex flex-col">
+<p>Croutons</p>
+<p>Oeuf(1)</p>
+<p>Betteraves</p>
+<p>Carottes</p>
+<p>Choux rouges</p>
+<p>Concombres</p>
+<p>Lentilles</p>
+<p>Maïs</p>
+<p>Oignons rouges</p>
+
+</div>
+<div class="flex flex-col ">
+<p>Radis</p>
+<p>Pommes</p>
+<p>Oignons frits</p>
+<p>Emmental</p>
+<p>Mozzarella</p>
+<p>Mimolette</p>
+<p>Surimi</p>
+<p>Saussices</p>
+
+</div>
+</div>
+</div>
+<div class="w-[675px] h-[460px] bg-specialblue/80 p-10">
+<h2 class="text-white text-5xl text-center">Chez les bleus</h2>
+
+<div class="flex p-10 text-lg justify-evenly">
+<div class="flex flex-col">
+<p>Aubergines</p>
+<p>Avocat</p>
+<p>Cantal</p>
+<p>Coeur d'artichaut</p>
+<p>Grana panado</p>
+<p>Jambon cru</p>
+<p>Crevettes</p>
+</div>
+<div class="flex flex-col">
+<p>Feta</p>
+<p>Melon</p>
+<p>Oeuf Poché</p>
+<p>Poivrons</p>
+<p>Thon</p>
+<p>Tomates cerises</p>
+<p>Tomates séchés</p>
+</div>
+</div>
+</div>
+
+</div>
+</div>
 
 `
 
