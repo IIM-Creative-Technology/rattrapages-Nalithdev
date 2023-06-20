@@ -214,6 +214,59 @@ et venez chercher votre salade dans 20min !</p>
 
 </div>
 </div>
+</div> 
+
+<div class="flex w-full h-screen  items-center bg-[url('./src/asset/61842.jpg')] bg-[length:400px_300px] absolute z-[-2] ">
+
+<div class="bg-white opacity-[80%] absolute w-full h-screen z-[-1]">
+
+</div>
+</div>
+
+
+<div class=" w-full h-screen opacity-[100%] flex overflow-hidden items-center">
+<div class="flex flex-wrap w-[950px] h-[580px] p-8 justify-between">
+<div class="w-[250px] h-[250px] bg-[url('./src/asset/anh-nguyen-_Uqj5BQb-mw-unsplash.jpg')] bg-[length:500px_500px] bg-no-repeat bg-left-top ">
+
+</div>
+<div class="w-[250px] h-[250px]  bg-[url('./src/asset/anh-nguyen-_Uqj5BQb-mw-unsplash.jpg')] bg-[length:500px_500px] bg-no-repeat bg-right-top ">
+</div>
+<div class="w-[250px] h-[250px] bg-[url('./src/asset/anh-nguyen-_Uqj5BQb-mw-unsplash.jpg')] bg-[length:500px_500px] bg-no-repeat bg-left-bottom"></div>
+<div class="w-[250px] h-[250px] bg-[url('./src/asset/anh-nguyen-_Uqj5BQb-mw-unsplash.jpg')] bg-[length:500px_500px] bg-no-repeat bg-right-bottom"></div>
+
+</div>
+<div class="w-full pt-0 pl-40 text-center">
+<h2 class=" text-5xl text-specialgreen font-[poppins] font-semibold pr-20 pb-0 pt-10 pl-0 ">Envie de partager ?</h2>
+<p class="text-xl p-40 pt-4 pb-0 pl-20 ">Toute l'année, on recrute des employés motivés pour tous nos restaurants ! 
+<br>
+N'hésitez pas à postuler !
+
+</p>
+<form action="" class="flex flex-wrap gap-8 items-center pt-4">
+<div class="text-start text-lg text-specialgreen">
+<p class="pb-2">Nom</p>
+<input type="text"  class="w-[300px] h-[50px] border-2   p-4">
+</div>
+<div class="text-start text-lg text-specialgreen">
+<p class="pb-2">Prenom</p>
+<input type="text"  class="w-[300px] h-[50px] border-2  p-4">
+</div>
+<div class="text-start text-lg text-specialgreen">
+<p class="pb-2">Email</p>
+<input type="text"  class="w-[635px] h-[50px] border-2  p-4">
+</div>
+<div class="text-start text-lg text-specialgreen">
+<p class="pb-2">Votre motivation en quelques mots</p>
+<textarea name="" id="" cols="30" rows="10" class="w-[635px] h-[100px] border-2  p-4"></textarea>
+</form> 
+
+<div class="pt-12">
+<a href="#" class="text-white text-2xl bg-specialgreen p-4 pl-16 pr-16 rounded-md font-['poppinssemibold'] not-italic font-semibold ">Postuler</a>
+</div>
+</div>
+
+</div>
+
 
 `
 
