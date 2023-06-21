@@ -43,19 +43,19 @@ document.querySelector('#app').innerHTML = `
 
 <div>
 <div class=" w-full h-screen opacity-[100%] flex overflow-hidden">
-<div class="w-full pt-40 pl-40">
+<div class="w-full xl:pt-40 xl:pl-40 md:p-20 md:pb-0  ">
 <h2 class=" text-5xl text-specialgreen font-[poppins] font-semibold w-full">Une salade sur mesure</h2>
-<p class="w-[65%] text-xl pt-16">MONGOO vous permet de composer votre salade selon vos envies et vos goûts.
+<p class="w-[65%] text-xl pt-16 md:ml-28">MONGOO vous permet de composer votre salade selon vos envies et vos goûts.
 
 </p>
-<p class="w-[65%] text-xl pt-4">
+<p class="w-[65%] text-xl pt-4 md:ml-28">
 Une quarantaine d'ingrédients frais et préparés le matin même sur place vous sont proposés au quotidien.
 </p>
 
-<p class="w-[65%] text-xl pt-4">
+<p class="w-[65%] text-xl pt-4 md:ml-28">
 Depuis maintenant 10 ans, MONGOO fait le bonheur des gourmets et des gourmands, alors pourquoi pas vous ? </p>
 
-<div class="pt-12">
+<div class="pt-12 md:ml-40">
 <a href="#" class="text-white text-2xl bg-specialgreen p-4 pl-16 pr-16 rounded-md font-['poppinssemibold'] not-italic font-semibold ">En savoir +</a>
 </div>
 </div>
@@ -66,7 +66,7 @@ Depuis maintenant 10 ans, MONGOO fait le bonheur des gourmets et des gourmands, 
 
 
 <div class="w-full h-screen bg-[url('./src/asset/ismael-trevino-NDyuR4Huig8-unsplash.png')] bg-cover bg-no-repeat relative  ">
-<div class=" bg-specialgreen/80 w-[600px] h-[600px] m-auto right-40 absolute p-10 text-center  bottom-16 ">
+<div class=" bg-specialgreen/80 w-[600px] h-[600px] m-auto  absolute p-10 text-center  md:right-20 xl:right-40 xl:bottom-16 md:bottom-6">
 <h2 class="text-6xl text-white">Préparé sur place et avec amour</h2>  
 <p class="text-white text-lg pt-6"> 
 Chez MONGOO, tous les ingrédients et tous les desserts sont préparés sur place.
