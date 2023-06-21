@@ -95,7 +95,7 @@ Alors faites votre choix !</p>
 Mais attention, pas n'importe quelle boisson et n'importe quel dessert...</p>
 <p class="text-center xl:p-[380px] md:p-40 md:pt-0 md:pb-0 pb-0 pt-0 text-lg" >
 Découvrez notre large sélection de boissons et desserts pour accompagner votre repas</p>
-<div class="w-full xl:flex p-40 pt-20 pb-10 items-center  ">
+<div class="w-full xl:flex md:p-40 pt-20 pb-10 items-center  ">
 
 <div class=" w-full p-10">
 
@@ -162,7 +162,7 @@ et venez chercher votre salade dans 20min !</p>
 <div class="w-full bg-[url('./src/asset/louis-hansel-MlPD-AzZYMg-unsplash.jpg')] bg-cover bg-center bg-no-repeat relative items-center  ">
 <div class="xl:flex xl:justify-center xl:p-28 xl:gap-6 xl:pl-20 md:pl-12 xl:pr-20 text-white md:pt-16 md:pb-16 ">
 
-<div class="w-[675px] bg-specialgreen/80 h-[460px] p-10 md:mb-10">
+<div class="md:w-[675px] bg-specialgreen/80 md:h-[460px] p-10 md:mb-10">
 <h2 class="text-white text-5xl text-center">Chez les verts</h2>
 <div class="flex justify-evenly p-10 text-lg ">
 <div class="flex flex-col">
@@ -190,7 +190,7 @@ et venez chercher votre salade dans 20min !</p>
 </div>
 </div>
 </div>
-<div class="w-[675px] h-[460px] bg-specialblue/80 p-10">
+<div class="md:w-[675px] md:h-[460px] bg-specialblue/80 p-10">
 <h2 class="text-white text-5xl text-center">Chez les bleus</h2>
 
 <div class="flex p-10 text-lg justify-evenly">
@@ -227,25 +227,25 @@ et venez chercher votre salade dans 20min !</p>
 </div>
 
 
-<div class=" w-full xl:h-[110vh] opacity-[100%] xl:flex overflow-hidden items-center md:pb-16">
-<div class="flex flex-wrap 2xl:w-[950px] h-[580px] xl:w-[990px] md:w-[575px] md:m-auto p-8 justify-between">
-<div class="w-[250px] h-[250px] bg-[url('./src/asset/anh-nguyen-_Uqj5BQb-mw-unsplash.jpg')] bg-[length:500px_500px] bg-no-repeat bg-left-top ">
+<div class=" w-full xl:h-[110vh] opacity-[100%] xl:flex overflow-hidden items-center pb-16">
+<div class="flex flex-wrap 2xl lg:w-[950px] md:h-[580px] h-[440px] xl:w-[990px] md:w-[575px] md:m-auto p-8 justify-between pb-0">
+<div class="md:w-[250px] md:h-[250px] w-[175px] h-[175px] bg-[url('./src/asset/anh-nguyen-_Uqj5BQb-mw-unsplash.jpg')] md:bg-[length:500px_500px] bg-[length:375px_375px] bg-no-repeat bg-left-top ">
 
 </div>
-<div class="w-[250px] h-[250px]  bg-[url('./src/asset/anh-nguyen-_Uqj5BQb-mw-unsplash.jpg')] bg-[length:500px_500px] bg-no-repeat bg-right-top ">
+<div class="md:w-[250px] md:h-[250px] w-[175px] h-[175px]  bg-[url('./src/asset/anh-nguyen-_Uqj5BQb-mw-unsplash.jpg')] md:bg-[length:500px_500px] bg-[length:375px_375px] bg-no-repeat bg-right-top ">
 </div>
-<div class="w-[250px] h-[250px] bg-[url('./src/asset/anh-nguyen-_Uqj5BQb-mw-unsplash.jpg')] bg-[length:500px_500px] bg-no-repeat bg-left-bottom"></div>
-<div class="w-[250px] h-[250px] bg-[url('./src/asset/anh-nguyen-_Uqj5BQb-mw-unsplash.jpg')] bg-[length:500px_500px] bg-no-repeat bg-right-bottom"></div>
+<div class="md:w-[250px] md:h-[250px] w-[175px] h-[175px] bg-[url('./src/asset/anh-nguyen-_Uqj5BQb-mw-unsplash.jpg')] md:bg-[length:500px_500px] bg-[length:375px_375px] bg-no-repeat bg-left-bottom"></div>
+<div class="md:w-[250px] md:h-[250px] w-[175px] h-[175px] bg-[url('./src/asset/anh-nguyen-_Uqj5BQb-mw-unsplash.jpg')] md:bg-[length:500px_500px] bg-[length:375px_375px] bg-no-repeat bg-right-bottom"></div>
 
 </div>
 <div class="w-full pt-0 xl:pl-40 md:p-20 md:pt-4 text-center">
 <h2 class=" text-5xl text-specialgreen font-[poppins] font-semibold xl:pr-20 pb-0 pt-10 pl-0 md:text-center">Envie de partager ?</h2>
-<p class="text-xl xl:p-40 md:p-20 xl:pt-4 xl:pb-0 xl:pl-20 md:pt-4 m    d:pb-0 ">Toute l'année, on recrute des employés motivés pour tous nos restaurants ! 
+<p class="text-xl xl:p-40 md:p-20 xl:pt-4 xl:pb-0 xl:pl-20 md:pt-4 m    d:pb-0 p-10 ">Toute l'année, on recrute des employés motivés pour tous nos restaurants ! 
 <br>
 N'hésitez pas à postuler !
 
 </p>
-<form action="" class="xl:flex xl:flex-wrap gap-8 items-center pt-4">
+<form action="" class="xl:flex xl:flex-wrap gap-8 items-center md:pt-4 ">
 <div class="xl:text-start text-lg text-specialgreen">
 <p class="pb-2 md:text-start md:pl-40">Nom</p>
 <input type="text"  class="w-[300px] h-[50px] border-2   p-4">
@@ -256,11 +256,11 @@ N'hésitez pas à postuler !
 </div>
 <div class="xl:text-start text-lg text-specialgreen md:pb-10">
 <p class="pb-2 md:text-start md:pl-10 ">Email</p>
-<input type="text"  class="xl:w-[635px] md:w-[520px] h-[50px] border-2  p-4">
+<input type="text"  class="xl:w-[635px] md:w-[520px] h-[50px] w-[375px] border-2  p-4">
 </div>
 <div class="xl:text-start text-lg text-specialgreen">
 <p class="pb-2 md:text-start md:pl-10">Votre motivation en quelques mots</p>
-<textarea name="" id="" cols="30" rows="10" class="xl:w-[635px] md:w-[520px] h-[100px] border-2  p-4"></textarea>
+<textarea name="" id="" cols="30" rows="10" class="xl:w-[635px] md:w-[520px] h-[100px] w-[375px] border-2  p-4"></textarea>
 </div>
 </form> 
 
