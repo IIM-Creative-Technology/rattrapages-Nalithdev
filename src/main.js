@@ -9,7 +9,7 @@ document.querySelector('#app').innerHTML = `
     
     <div class=" h-screen w-full absolute top-0 ">
     <div class="flex justify-between w-full">
-    <img src="./src/asset/mangoo.png" alt="mangoo" class="w-72 h-36 p-8">
+    <img src="./src/asset/mangoo.png" alt="mangoo" class="w-72 h-36 p-8 md:hidden">
     <nav>
     <ul class="flex gap-8 p-8 text-lg ">
     <li><a href="#" class=" text-white hover:underline hover:underline-offset-2 hover:text-white">Accueil</a></li>
@@ -59,7 +59,7 @@ Depuis maintenant 10 ans, MONGOO fait le bonheur des gourmets et des gourmands, 
 <a href="#" class="text-white text-2xl bg-specialgreen p-4 pl-16 pr-16 rounded-md font-['poppinssemibold'] not-italic font-semibold ">En savoir +</a>
 </div>
 </div>
-<div class="mr-[-145px] mt-[-30px]">
+<div class="mr-[-145px] mt-[-30px] md:hidden">
 <img src="./src/asset/salade-detoure.png" alt="" class=" w-[1700px]">
 </div>
 </div>
@@ -88,11 +88,11 @@ Alors faites votre choix !</p>
 </div>
 <div class="w-full h-auto bg-[url('./src/asset/pattern.png')] relative bg-[length:1300px_1000px] items-center  ">
 <h2 class="text-6xl text-specialgreen text-center pt-20 font-['poppinssemibold']  font-semi-bold">Vous avez dit menu ?</h2>
-<p class="text-center p-[380px] pb-10 pt-10 text-lg">Un menu MONGOO, c'est une salade accompagnée d'une boisson et d'un dessert.
+<p class="text-center xl:p-[380px] md:p-40 md:pb-10 md:pt-10 pb-10 pt-10 text-lg">Un menu MONGOO, c'est une salade accompagnée d'une boisson et d'un dessert.
 Mais attention, pas n'importe quelle boisson et n'importe quel dessert...</p>
-<p class="text-center p-[380px] pb-0 pt-0 text-lg" >
+<p class="text-center xl:p-[380px] md:p-40 md:pt-0 md:pb-0 pb-0 pt-0 text-lg" >
 Découvrez notre large sélection de boissons et desserts pour accompagner votre repas</p>
-<div class="w-full flex p-40 pt-20 pb-10 items-center  ">
+<div class="w-full xl:flex p-40 pt-20 pb-10 items-center  ">
 
 <div class=" w-full p-10">
 
@@ -157,9 +157,9 @@ et venez chercher votre salade dans 20min !</p>
 </div>
 
 <div class="w-full bg-[url('./src/asset/louis-hansel-MlPD-AzZYMg-unsplash.jpg')] bg-cover bg-center bg-no-repeat relative items-center  ">
-<div class="flex justify-center p-28 gap-6 pl-20 pr-20 text-white">
+<div class="xl:flex xl:justify-center xl:p-28 xl:gap-6 xl:pl-20 md:pl-12 xl:pr-20 text-white md:pt-16 md:pb-16 ">
 
-<div class="w-[675px] bg-specialgreen/80 h-[460px] p-10">
+<div class="w-[675px] bg-specialgreen/80 h-[460px] p-10 md:mb-10">
 <h2 class="text-white text-5xl text-center">Chez les verts</h2>
 <div class="flex justify-evenly p-10 text-lg ">
 <div class="flex flex-col">
@@ -224,8 +224,8 @@ et venez chercher votre salade dans 20min !</p>
 </div>
 
 
-<div class=" w-full h-[110vh] opacity-[100%] flex overflow-hidden items-center">
-<div class="flex flex-wrap w-[950px] h-[580px] p-8 justify-between">
+<div class=" w-full xl:h-[110vh] opacity-[100%] xl:flex overflow-hidden items-center md:pb-16">
+<div class="flex flex-wrap 2xl:w-[950px] h-[580px] xl:w-[990px] md:w-[575px] md:m-auto p-8 justify-between">
 <div class="w-[250px] h-[250px] bg-[url('./src/asset/anh-nguyen-_Uqj5BQb-mw-unsplash.jpg')] bg-[length:500px_500px] bg-no-repeat bg-left-top ">
 
 </div>
@@ -235,34 +235,34 @@ et venez chercher votre salade dans 20min !</p>
 <div class="w-[250px] h-[250px] bg-[url('./src/asset/anh-nguyen-_Uqj5BQb-mw-unsplash.jpg')] bg-[length:500px_500px] bg-no-repeat bg-right-bottom"></div>
 
 </div>
-<div class="w-full pt-0 pl-40 text-center">
-<h2 class=" text-5xl text-specialgreen font-[poppins] font-semibold pr-20 pb-0 pt-10 pl-0 ">Envie de partager ?</h2>
-<p class="text-xl p-40 pt-4 pb-0 pl-20 ">Toute l'année, on recrute des employés motivés pour tous nos restaurants ! 
+<div class="w-full pt-0 xl:pl-40 md:p-20 md:pt-4 text-center">
+<h2 class=" text-5xl text-specialgreen font-[poppins] font-semibold xl:pr-20 pb-0 pt-10 pl-0 md:text-center">Envie de partager ?</h2>
+<p class="text-xl xl:p-40 md:p-20 xl:pt-4 xl:pb-0 xl:pl-20 md:pt-4 m    d:pb-0 ">Toute l'année, on recrute des employés motivés pour tous nos restaurants ! 
 <br>
 N'hésitez pas à postuler !
 
 </p>
-<form action="" class="flex flex-wrap gap-8 items-center pt-4">
-<div class="text-start text-lg text-specialgreen">
-<p class="pb-2">Nom</p>
+<form action="" class="xl:flex xl:flex-wrap gap-8 items-center pt-4">
+<div class="xl:text-start text-lg text-specialgreen">
+<p class="pb-2 md:text-start md:pl-40">Nom</p>
 <input type="text"  class="w-[300px] h-[50px] border-2   p-4">
 </div>
-<div class="text-start text-lg text-specialgreen">
-<p class="pb-2">Prenom</p>
+<div class="xl:text-start text-lg text-specialgreen">
+<p class="pb-2 md:text-start md:pl-40">Prenom</p>
 <input type="text"  class="w-[300px] h-[50px] border-2  p-4">
 </div>
-<div class="text-start text-lg text-specialgreen">
-<p class="pb-2">Email</p>
-<input type="text"  class="w-[635px] h-[50px] border-2  p-4">
+<div class="xl:text-start text-lg text-specialgreen md:pb-10">
+<p class="pb-2 md:text-start md:pl-10 ">Email</p>
+<input type="text"  class="xl:w-[635px] md:w-[520px] h-[50px] border-2  p-4">
 </div>
-<div class="text-start text-lg text-specialgreen">
-<p class="pb-2">Votre motivation en quelques mots</p>
-<textarea name="" id="" cols="30" rows="10" class="w-[635px] h-[100px] border-2  p-4"></textarea>
+<div class="xl:text-start text-lg text-specialgreen">
+<p class="pb-2 md:text-start md:pl-10">Votre motivation en quelques mots</p>
+<textarea name="" id="" cols="30" rows="10" class="xl:w-[635px] md:w-[520px] h-[100px] border-2  p-4"></textarea>
 </div>
 </form> 
 
 <div class="pt-12">
-<a href="#" class="text-white text-2xl bg-specialgreen p-4 pl-16 pr-16 mr-40 rounded-md font-['poppinssemibold'] not-italic font-semibold ">Postuler</a>
+<a href="#" class="text-white text-2xl bg-specialgreen p-4 pl-16 pr-16 xl:mr-40 rounded-md font-['poppinssemibold'] not-italic font-semibold ">Postuler</a>
 </div>
 </div>
 
@@ -270,7 +270,7 @@ N'hésitez pas à postuler !
 </div>
 <footer class=" bg-specialgreen h-[300px] w-full text-white text-center">
 <div class="flex justify-around items-center pt-20 text-xl">
-<img src="./src/asset/mangoo.png" alt="Mangoo" class="w-[300px] h-[100px]">
+<img src="./src/asset/mangoo.png" alt="Mangoo" class="w-[300px] h-[100px] md:hidden">
 <div >
 <h2 class=" pb-8 text-3xl">Commander</h2>
 <p >Passer une commande</p>
