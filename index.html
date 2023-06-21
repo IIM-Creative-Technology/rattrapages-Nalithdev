@@ -9,5 +9,19 @@
   <body>
     <div id="app" class="w-full"></div>
     <script type="module" src="/src/main.js"></script>
+
   </body>
+<script>
+  function openBurg(){
+    const burg = document.querySelector(".burg");
+    console.log(burg);
+    burg.style.display = "flex";
+
+
+  }
+
+  function closeBurg(){
+    document.querySelector(".burg").style.display = "none";
+  }
+</script>
 </html>

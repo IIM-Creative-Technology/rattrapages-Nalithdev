@@ -1,6 +1,7 @@
 import '../style.css'
 
 
+
 document.querySelector('#app').innerHTML = `
     <div class="h-screen bg-[url('./src/asset/image.png')] bg-cover w-full bg-no-repeat ">
     <div class="bg-gradient-to-br from-specialblue to-specialgreen h-screen w-full absolute opacity-[60%] ">
@@ -9,20 +10,22 @@ document.querySelector('#app').innerHTML = `
     
     <div class=" h-screen w-full absolute top-0 ">
     <div class="flex justify-between w-full">
-    <img src="./src/asset/mangoo.png" alt="mangoo" class="w-72 h-36 p-8 md:hidden">
-    <nav>
-    <ul class="flex gap-8 p-8 text-lg ">
-    <li><a href="#" class=" text-white hover:underline hover:underline-offset-2 hover:text-white">Accueil</a></li>
-    <li><a href="#" class=" text-white hover:underline hover:underline-offset-2 hover:text-white"">Qui sommes-nous ?</a></li>
-    <li><a href="#" class=" text-white hover:underline hover:underline-offset-2 hover:text-white"">Menu</a></li>
-    <li><a href="#" class=" text-white hover:underline hover:underline-offset-2 hover:text-white"" >Contact</a></li>
+    <img src="./src/asset/mangoo.png" alt="mangoo" class="w-72 h-36 p-8 xl:flex hidden">
+    <span class="text-white absolute text-3xl top-5 right-5 md:hidden" onclick="openBurg()">&#9776;</span>
+    <nav class="hidden md:block  burg" ">
+    <ul class="md:flex md:gap-8 p-8 text-lg block md:relative absolute right-0 top-0 w-full h-screen bg-black z-10 md:z-0 md:w-auto md:h-auto md:bg-transparent">
+     <a href="javascript:void(0)" class="md:hidden text-xl pb-4 md:pb-0 text-white" onclick="closeBurg()">&times;</a>
+    <li><a href="#" class=" text-white hover:underline hover:underline-offset-2 hover:text-white ">Accueil</a></li>
+    <li><a href="#" class=" text-white hover:underline hover:underline-offset-2 hover:text-white ">Qui sommes-nous ?</a></li>
+    <li><a href="#" class=" text-white hover:underline hover:underline-offset-2 hover:text-white ">Menu</a></li>
+    <li class="pb-4 md:pb-0"><a href="#" class=" text-white hover:underline hover:underline-offset-2 hover:text-white ">Contact</a></li>
     <li><a href="#" class=" text-lime-400 bg-white p-2 rounded-md pl-8 pr-8">Commander</a></li>
 </ul>
 </nav>
 </div>
 <div class="pt-16">
-<h1 class="text-white text-[180px] font-bold text-center items-center ">mangoo</h1>
-<h2 class="text-white text-5xl font-bold text-center items-center pt-16 pl-[350px] rotate-[-10deg] font-['poppins']">C'est frais pour vous !</h2> 
+<h1 class="text-white md:text-[180px] font-bold text-center items-center text-8xl md:pt-0 pt-40">mangoo</h1>
+<h2 class="text-white md:text-5xl font-bold text-center items-center pt-16 md:pl-[350px] rotate-[-10deg] font-['poppins'] pl-40 text-xl">C'est frais pour vous !</h2> 
 <div class="flex absolute right-0 bottom-0 p-8 gap-4">
 <img src="./src/asset/Icon-awesome-facebook-square.png" alt="facebook">
 <img src="./src/asset/Icon_awesome-instagram.png" alt="instagram">
@@ -43,30 +46,30 @@ document.querySelector('#app').innerHTML = `
 
 <div>
 <div class=" w-full h-screen opacity-[100%] flex overflow-hidden">
-<div class="w-full xl:pt-40 xl:pl-40 md:p-20 md:pb-0  ">
-<h2 class=" text-5xl text-specialgreen font-[poppins] font-semibold w-full">Une salade sur mesure</h2>
-<p class="w-[65%] text-xl pt-16 md:ml-28">MONGOO vous permet de composer votre salade selon vos envies et vos goûts.
+<div class="w-full xl:pt-0 xl:pl-40 md:p-20 md:pt-0 md:pb-0  ">
+<h2 class=" md:text-5xl text-specialgreen font-[poppins] font-semibold w-full text-3xl pt-16 text-center">Une salade sur mesure</h2>
+<p class="md:w-[65%] text-xl md:p0 pb-0 p-10 pt-8 md:ml-28">MONGOO vous permet de composer votre salade selon vos envies et vos goûts.
 
 </p>
-<p class="w-[65%] text-xl pt-4 md:ml-28">
+<p class="md:w-[65%] text-xl md:p0 p-10 pb-0 pt-4 md:ml-28">
 Une quarantaine d'ingrédients frais et préparés le matin même sur place vous sont proposés au quotidien.
 </p>
 
-<p class="w-[65%] text-xl pt-4 md:ml-28">
+<p class="md:w-[65%] text-xl md:p0 pb-0 p-10 pt-4 md:ml-28">
 Depuis maintenant 10 ans, MONGOO fait le bonheur des gourmets et des gourmands, alors pourquoi pas vous ? </p>
 
-<div class="pt-12 md:ml-40">
+<div class="pt-12  text-center">
 <a href="#" class="text-white text-2xl bg-specialgreen p-4 pl-16 pr-16 rounded-md font-['poppinssemibold'] not-italic font-semibold ">En savoir +</a>
 </div>
 </div>
-<div class="mr-[-145px] mt-[-30px] md:hidden">
+<div class="mr-[-145px] mt-[-30px] xl:flex hidden">
 <img src="./src/asset/salade-detoure.png" alt="" class=" w-[1700px]">
 </div>
 </div>
 
 
 <div class="w-full h-screen bg-[url('./src/asset/ismael-trevino-NDyuR4Huig8-unsplash.png')] bg-cover bg-no-repeat relative  ">
-<div class=" bg-specialgreen/80 w-[600px] h-[600px] m-auto  absolute p-10 text-center  md:right-20 xl:right-40 xl:bottom-16 md:bottom-6">
+<div class=" bg-specialgreen/80 md:w-[600px] md:h-[600px] m-auto  absolute p-10 text-center  md:right-20 xl:right-40 xl:bottom-16 md:bottom-6">
 <h2 class="text-6xl text-white">Préparé sur place et avec amour</h2>  
 <p class="text-white text-lg pt-6"> 
 Chez MONGOO, tous les ingrédients et tous les desserts sont préparés sur place.
