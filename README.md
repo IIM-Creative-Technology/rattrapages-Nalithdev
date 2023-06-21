@@ -22,4 +22,5 @@ Le projet se lancera et vous aurez plus qu'a appuyer sur le lien donné dans vot
 Aucun merge n'était autorisé car githun aujourd'hui compte la mon rendu comme un projet différent que celui déja présent sur la main (le seul fichier présent était un readme)
 
 Par concéquent aucun commit réalisé durant ce projet n'est présent sur cet branch main mais une image y sera intégrer pour prouver la validité de mon travail et mon implication dans ce projet
+La Branch Dev ne sera pas supprimer pour vous laissez l'accès au commit présent dessus
 
