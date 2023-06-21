@@ -24,8 +24,8 @@ document.querySelector('#app').innerHTML = `
 </nav>
 </div>
 <div class="pt-16">
-<h1 class="text-white md:text-[180px] font-bold text-center items-center text-8xl md:pt-0 pt-40">mangoo</h1>
-<h2 class="text-white md:text-5xl font-bold text-center items-center pt-16 md:pl-[350px] rotate-[-10deg] font-['poppins'] pl-40 text-xl">C'est frais pour vous !</h2> 
+<h1 class="text-white md:text-[180px] font-bold text-center items-center md:text-8xl text-6xl md:pt-0 pt-40">mangoo</h1>
+<h2 class="text-white md:text-5xl font-bold text-center items-center pt-16 md:pl-[350px] rotate-[-10deg] font-['poppins'] md:pl-40 pl-36 w-11/12 text-lg">C'est frais pour vous !</h2> 
 <div class="flex absolute right-0 bottom-0 p-8 gap-4">
 <img src="./src/asset/Icon-awesome-facebook-square.png" alt="facebook">
 <img src="./src/asset/Icon_awesome-instagram.png" alt="instagram">
@@ -48,14 +48,14 @@ document.querySelector('#app').innerHTML = `
 <div class=" w-full h-screen opacity-[100%] flex overflow-hidden">
 <div class="w-full xl:pt-0 xl:pl-40 md:p-20 md:pt-0 md:pb-0  ">
 <h2 class=" md:text-5xl text-specialgreen font-[poppins] font-semibold w-full text-3xl pt-16 text-center">Une salade sur mesure</h2>
-<p class="md:w-[65%] text-xl md:p0 pb-0 p-10 pt-8 md:ml-28">MONGOO vous permet de composer votre salade selon vos envies et vos goûts.
+<p class="md:w-[65%] md:text-xl md:p0 pb-0 p-10 pt-8 md:ml-28 text-lg">MONGOO vous permet de composer votre salade selon vos envies et vos goûts.
 
 </p>
-<p class="md:w-[65%] text-xl md:p0 p-10 pb-0 pt-4 md:ml-28">
+<p class="md:w-[65%] md:text-xl md:p0 p-10 pb-0 pt-4 md:ml-28 text-lg">
 Une quarantaine d'ingrédients frais et préparés le matin même sur place vous sont proposés au quotidien.
 </p>
 
-<p class="md:w-[65%] text-xl md:p0 pb-0 p-10 pt-4 md:ml-28">
+<p class="md:w-[65%] md:text-xl md:p0 pb-0 p-10 pt-4 md:ml-28 text-lg">
 Depuis maintenant 10 ans, MONGOO fait le bonheur des gourmets et des gourmands, alors pourquoi pas vous ? </p>
 
 <div class="pt-12  text-center">
@@ -69,19 +69,19 @@ Depuis maintenant 10 ans, MONGOO fait le bonheur des gourmets et des gourmands, 
 
 
 <div class="w-full h-screen bg-[url('./src/asset/ismael-trevino-NDyuR4Huig8-unsplash.png')] bg-cover bg-no-repeat relative  ">
-<div class=" bg-specialgreen/80 md:w-[600px] md:h-[600px] m-auto  absolute p-10 text-center  md:right-20 xl:right-40 xl:bottom-16 md:bottom-6">
-<h2 class="text-6xl text-white">Préparé sur place et avec amour</h2>  
-<p class="text-white text-lg pt-6"> 
+<div class=" bg-specialgreen/80 md:w-[600px] md:h-[600px] m-auto h-full w-full  absolute p-10 text-center  md:right-20 xl:right-40 xl:bottom-16 md:bottom-6">
+<h2 class="md:text-6xl text-3xl text-white">Préparé sur place et avec amour</h2>  
+<p class="text-white md:text-lg pt-6"> 
 Chez MONGOO, tous les ingrédients et tous les desserts sont préparés sur place.
 </p>
-<p class="text-white text-lg pt-6">
+<p class="text-white md:text-lg pt-6">
 Nous mettons un point d'honneur à ce que tous les matins, nos équipes de super-préparateurs découpent, tranchent, épluchent, assaisonnent, mélangent, émincent, saupoudrent et préparent tout ce qu'il y a sur le bar afin de vous proposer les meilleures combinaisons de salades possible.
 </p>
-<p class="text-white text-lg pt-6">
+<p class="text-white md:text-lg pt-6">
 Alors faites votre choix !</p>
 
 <div class="pt-12">
-<a href="#" class="text-specialgreen text-2xl bg-white p-4 pl-16 pr-16 rounded-md font-['poppinssemibold'] not-italic font-semibold ">En savoir +</a>
+<a href="#" class="text-specialgreen text-2xl bg-white p-4 md:pl-16 md:pr-16 pl-8 pr-8 rounded-md font-['poppinssemibold'] not-italic font-semibold ">En savoir +</a>
 </div>
 
 </div>
@@ -91,11 +91,11 @@ Alors faites votre choix !</p>
 </div>
 <div class="w-full h-auto bg-[url('./src/asset/pattern.png')] relative bg-[length:1300px_1000px] items-center  ">
 <h2 class="text-6xl text-specialgreen text-center pt-20 font-['poppinssemibold']  font-semi-bold">Vous avez dit menu ?</h2>
-<p class="text-center xl:p-[380px] md:p-40 md:pb-10 md:pt-10 pb-10 pt-10 text-lg">Un menu MONGOO, c'est une salade accompagnée d'une boisson et d'un dessert.
+<p class="text-center xl:p-[380px] md:p-40 md:pb-10 md:pt-10 pb-10 pt-10 text-lg xl:pt-10 xl:pb-4">Un menu MONGOO, c'est une salade accompagnée d'une boisson et d'un dessert.
 Mais attention, pas n'importe quelle boisson et n'importe quel dessert...</p>
-<p class="text-center xl:p-[380px] md:p-40 md:pt-0 md:pb-0 pb-0 pt-0 text-lg" >
+<p class="text-center xl:p-[380px] md:p-40 md:pt-0 md:pb-0 pb-0 pt-0 text-lg xl:pt-4 xl:pb-0" >
 Découvrez notre large sélection de boissons et desserts pour accompagner votre repas</p>
-<div class="w-full xl:flex md:p-40 pt-20 pb-10 items-center  ">
+<div class="w-full xl:flex md:p-40 md:pt-20 pt-10 pb-10 items-center  ">
 
 <div class=" w-full p-10">
 
@@ -153,18 +153,18 @@ Découvrez notre large sélection de boissons et desserts pour accompagner votre
 et venez chercher votre salade dans 20min !</p>
 
 <div class="pt-12 ">
-<a href="#" class="text-white text-2xl bg-specialgreen p-4 pl-16 pr-16 rounded-md font-['poppinssemibold'] not-italic font-semibold ">En savoir +</a>
+<a href="#" class="text-white text-2xl bg-specialgreen p-4 md:pl-16 md:pr-16 pr-8 pl-8 rounded-md font-['poppinssemibold'] not-italic font-semibold ">En savoir +</a>
 </div>
 </div>
 
 </div>
 
 <div class="w-full bg-[url('./src/asset/louis-hansel-MlPD-AzZYMg-unsplash.jpg')] bg-cover bg-center bg-no-repeat relative items-center  ">
-<div class="xl:flex xl:justify-center xl:p-28 xl:gap-6 xl:pl-20 md:pl-12 xl:pr-20 text-white md:pt-16 md:pb-16 ">
+<div class="lg:flex lg:justify-center xl:p-28 lg:gap-6 xl:pl-20 md:pl-12 xl:pr-20 text-white md:pt-16 md:pb-16  ">
 
-<div class="md:w-[675px] bg-specialgreen/80 md:h-[460px] p-10 md:mb-10">
+<div class="md:w-[675px]  bg-specialgreen/80 md:h-[460px] md:p-10 p-4 md:mb-10">
 <h2 class="text-white text-5xl text-center">Chez les verts</h2>
-<div class="flex justify-evenly p-10 text-lg ">
+<div class="flex justify-evenly md:p-10 text-center text-lg ">
 <div class="flex flex-col">
 <p>Croutons</p>
 <p>Oeuf(1)</p>
@@ -190,7 +190,7 @@ et venez chercher votre salade dans 20min !</p>
 </div>
 </div>
 </div>
-<div class="md:w-[675px] md:h-[460px] bg-specialblue/80 p-10">
+<div class="md:w-[675px]  md:h-[460px] bg-specialblue/80 md:p-10 p-4  text-center">
 <h2 class="text-white text-5xl text-center">Chez les bleus</h2>
 
 <div class="flex p-10 text-lg justify-evenly">
@@ -219,6 +219,7 @@ et venez chercher votre salade dans 20min !</p>
 </div>
 </div> 
 
+
 <div class="flex w-full h-[120vh]  items-center bg-[url('./src/asset/61842.jpg')] bg-[length:400px_300px] absolute z-[-2] ">
 
 <div class="bg-white opacity-[80%] absolute w-full h-[120vh] z-[-1]">
@@ -228,18 +229,20 @@ et venez chercher votre salade dans 20min !</p>
 
 
 <div class=" w-full xl:h-[110vh] opacity-[100%] xl:flex overflow-hidden items-center pb-16">
-<div class="flex flex-wrap 2xl lg:w-[950px] md:h-[580px] h-[440px] xl:w-[990px] md:w-[575px] md:m-auto p-8 justify-between pb-0">
-<div class="md:w-[250px] md:h-[250px] w-[175px] h-[175px] bg-[url('./src/asset/anh-nguyen-_Uqj5BQb-mw-unsplash.jpg')] md:bg-[length:500px_500px] bg-[length:375px_375px] bg-no-repeat bg-left-top ">
+<img src="./src/asset/Img-with-sep.png" alt="" class=" w-[280px] h-[280px] m-auto mt-8 md:hidden">
+<div class=" md:flex-wrap 2xl md:w-[575px] md:h-[555px] hidden md:flex xl:w-[1250px] xl:h-[580px] md:m-auto p-8 xl:p-6 justify-between pb-0">
+
+<div class="md:w-[250px] md:h-[250px] w-2/4 w-[49%] h-[48%] bg-[url('./src/asset/anh-nguyen-_Uqj5BQb-mw-unsplash.jpg')] md:bg-[length:500px_500px] bg-[length:360px_370px] bg-no-repeat bg-left-top ">
 
 </div>
-<div class="md:w-[250px] md:h-[250px] w-[175px] h-[175px]  bg-[url('./src/asset/anh-nguyen-_Uqj5BQb-mw-unsplash.jpg')] md:bg-[length:500px_500px] bg-[length:375px_375px] bg-no-repeat bg-right-top ">
+<div class="md:w-[250px] md:h-[250px] w-2/4 w-[49%]  h-[48%] bg-[url('./src/asset/anh-nguyen-_Uqj5BQb-mw-unsplash.jpg')] md:bg-[length:500px_500px] bg-[length:360px_370px] bg-no-repeat bg-right-top ">
 </div>
-<div class="md:w-[250px] md:h-[250px] w-[175px] h-[175px] bg-[url('./src/asset/anh-nguyen-_Uqj5BQb-mw-unsplash.jpg')] md:bg-[length:500px_500px] bg-[length:375px_375px] bg-no-repeat bg-left-bottom"></div>
-<div class="md:w-[250px] md:h-[250px] w-[175px] h-[175px] bg-[url('./src/asset/anh-nguyen-_Uqj5BQb-mw-unsplash.jpg')] md:bg-[length:500px_500px] bg-[length:375px_375px] bg-no-repeat bg-right-bottom"></div>
+<div class="md:w-[250px] md:h-[250px] w-2/4 w-[49%] h-[48%] bg-[url('./src/asset/anh-nguyen-_Uqj5BQb-mw-unsplash.jpg')] md:bg-[length:500px_500px] bg-[length:360px_370px] bg-no-repeat bg-left-bottom"></div>
+<div class="md:w-[250px] md:h-[250px] w-2/4 w-[49%] h-[48%] bg-[url('./src/asset/anh-nguyen-_Uqj5BQb-mw-unsplash.jpg')] md:bg-[length:500px_500px] bg-[length:360px_370px] bg-no-repeat bg-right-bottom"></div>
 
 </div>
-<div class="w-full pt-0 xl:pl-40 md:p-20 md:pt-4 text-center">
-<h2 class=" text-5xl text-specialgreen font-[poppins] font-semibold xl:pr-20 pb-0 pt-10 pl-0 md:text-center">Envie de partager ?</h2>
+<div class="w-full pt-0 xl:pl-40 xl:pt-32 xl:mb-12 md:p-20 md:pt-4 text-center">
+<h2 class=" text-5xl text-specialgreen font-[poppins] font-semibold xl:pr-20 pb-0 pt-10 pl-0  md:text-center">Envie de partager ?</h2>
 <p class="text-xl xl:p-40 md:p-20 xl:pt-4 xl:pb-0 xl:pl-20 md:pt-4 m    d:pb-0 p-10 ">Toute l'année, on recrute des employés motivés pour tous nos restaurants ! 
 <br>
 N'hésitez pas à postuler !
@@ -256,11 +259,11 @@ N'hésitez pas à postuler !
 </div>
 <div class="xl:text-start text-lg text-specialgreen md:pb-10">
 <p class="pb-2 md:text-start md:pl-10 ">Email</p>
-<input type="text"  class="xl:w-[635px] md:w-[520px] h-[50px] w-[375px] border-2  p-4">
+<input type="text"  class="xl:w-[635px] md:w-[520px] h-[50px] w-11/12 border-2  p-4">
 </div>
 <div class="xl:text-start text-lg text-specialgreen">
 <p class="pb-2 md:text-start md:pl-10">Votre motivation en quelques mots</p>
-<textarea name="" id="" cols="30" rows="10" class="xl:w-[635px] md:w-[520px] h-[100px] w-[375px] border-2  p-4"></textarea>
+<textarea name="" id="" cols="30" rows="10" class="xl:w-[635px] md:w-[520px] h-[100px] w-11/12 border-2  p-4"></textarea>
 </div>
 </form> 
 
@@ -271,25 +274,25 @@ N'hésitez pas à postuler !
 
 </div>
 </div>
-<footer class=" bg-specialgreen h-[300px] w-full text-white text-center">
-<div class="flex justify-around items-center pt-20 text-xl">
-<img src="./src/asset/mangoo.png" alt="Mangoo" class="w-[300px] h-[100px] md:hidden">
+<footer class=" bg-specialgreen md:h-[300px] w-full text-white text-center">
+<div class="flex justify-around items-center md:pt-20 md:text-xl text-sm pt-10 pb-6">
+<img src="./src/asset/mangoo.png" alt="Mangoo" class="w-[300px] h-[100px] xl:flex hidden">
 <div >
-<h2 class=" pb-8 text-3xl">Commander</h2>
+<h2 class=" pb-8 md:text-3xl text-lg">Commander</h2>
 <p >Passer une commande</p>
 <p>Nos menus</p>
 <p>Restaurants</p>
 </div>
 
 <div>
-<h2 class=" pb-8 text-3xl">Informations</h2>
+<h2 class=" pb-8 md:text-3xl text-lg">Informations</h2>
 <p >F.A.Q</p>
 <p>Mentions Légales</p>
 <p>Recrutement</p>
 </div>
 
 <div >
-<h2 class=" pb-8 text-3xl">Nous trouver</h2>
+<h2 class=" pb-8 md:text-3xl text-lg">Nous trouver</h2>
 <p>Facebook</p>
 <p>Twitter</p>
 <p>Instagram</p>
