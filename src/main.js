@@ -230,7 +230,7 @@ et venez chercher votre salade dans 20min !</p>
 
 <div class=" w-full xl:h-[110vh] opacity-[100%] xl:flex overflow-hidden items-center pb-16">
 <img src="./src/asset/Img-with-sep.png" alt="" class=" w-[280px] h-[280px] m-auto mt-8 md:hidden">
-<div class=" md:flex-wrap 2xl md:w-[575px] md:h-[555px] hidden md:flex xl:w-[1250px] xl:h-[580px] md:m-auto p-8 xl:p-6 justify-between pb-0">
+<div class=" md:flex-wrap 2xl md:w-[575px] 2xl:w-[975px] md:h-[555px] hidden md:flex xl:w-[800px] PC:w-[750px] xl:pl-10 xl:h-[580px] md:m-auto p-8 xl:p-6 justify-between pb-0">
 
 <div class="md:w-[250px] md:h-[250px] w-2/4 w-[49%] h-[48%] bg-[url('./src/asset/anh-nguyen-_Uqj5BQb-mw-unsplash.jpg')] md:bg-[length:500px_500px] bg-[length:360px_370px] bg-no-repeat bg-left-top ">
 
@@ -241,7 +241,7 @@ et venez chercher votre salade dans 20min !</p>
 <div class="md:w-[250px] md:h-[250px] w-2/4 w-[49%] h-[48%] bg-[url('./src/asset/anh-nguyen-_Uqj5BQb-mw-unsplash.jpg')] md:bg-[length:500px_500px] bg-[length:360px_370px] bg-no-repeat bg-right-bottom"></div>
 
 </div>
-<div class="w-full pt-0 xl:pl-40 xl:pt-32 xl:mb-12 md:p-20 md:pt-4 text-center">
+<div class="w-full xl:w-9/12 xl:pl-16 xl:p-0 pt-0 xl:pl-40 xl:pt-32 xl:mb-12 md:p-20 md:pt-4 text-center">
 <h2 class=" text-5xl text-specialgreen font-[poppins] font-semibold xl:pr-20 pb-0 pt-10 pl-0  md:text-center">Envie de partager ?</h2>
 <p class="text-xl xl:p-40 md:p-20 xl:pt-4 xl:pb-0 xl:pl-20 md:pt-4 m    d:pb-0 p-10 ">Toute l'année, on recrute des employés motivés pour tous nos restaurants ! 
 <br>
@@ -257,7 +257,7 @@ N'hésitez pas à postuler !
 <p class="pb-2 md:text-start md:pl-40">Prenom</p>
 <input type="text"  class="w-[300px] h-[50px] border-2  p-4">
 </div>
-<div class="xl:text-start text-lg text-specialgreen md:pb-10">
+<div class="xl:text-start text-lg text-specialgreen md:pb-10 xl:pb-0">
 <p class="pb-2 md:text-start md:pl-10 ">Email</p>
 <input type="text"  class="xl:w-[635px] md:w-[520px] h-[50px] w-11/12 border-2  p-4">
 </div>
@@ -267,7 +267,7 @@ N'hésitez pas à postuler !
 </div>
 </form> 
 
-<div class="pt-12">
+<div class="pt-12 xl:pt-8">
 <a href="#" class="text-white text-2xl bg-specialgreen p-4 pl-16 pr-16 xl:mr-40 rounded-md font-['poppinssemibold'] not-italic font-semibold ">Postuler</a>
 </div>
 </div>
