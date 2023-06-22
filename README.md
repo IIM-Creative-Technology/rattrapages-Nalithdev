@@ -1,5 +1,9 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/sx0do6kF)
 
+##Lien vidéo présentation projet
+
+https://www.loom.com/share/bd2e479e1af94c72ba268f8e64274412?sid=7d9e3b00-2cc8-4d4a-9b0a-9b05c8dc7e87
+
 # Ethan Delcroix Rattrapage Tailwind
 
 Projet initialisé en Vite avec du Javascript
