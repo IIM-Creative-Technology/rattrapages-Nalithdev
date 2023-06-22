@@ -21,10 +21,15 @@ export default {
         'contain': 'contain',
         '50%': '50%',
         '16': '4rem',
-      }
+      },
+      screens: {
+        'PC': '1440px',
+        // => @media (min-width: 1440px) { ... }
+      },
 
 
-    },
+
+      },
   },
   plugins: [],
 }
