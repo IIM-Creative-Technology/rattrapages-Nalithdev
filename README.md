@@ -15,6 +15,16 @@ Pour lire le rendu vous aurez à écrire la commande suivante :
 
 Le projet se lancera et vous aurez plus qu'a appuyer sur le lien donné dans votre terminal
 
+##Information projet
+
+Il y a 5 niveaux de responsive dans le projet
+
+md: pour le responsive mobile
+lg: pour le responsive tablette 
+xl: pour le responsive les desktop de 1280px minimun
+PC: pour le responsive pc portable large de 1440px minimun de large (gestion d'image)
+2xl: pour le responsive au dessus de 1536px de large (gestion d'image)
+
 #### Projet réalisé seul sans aucune aide extérieur pour les biens de preuve du à l'importance de ce rattrapage
 
 ### Petit problème Git-hub lors de la liaison sans clone le repositorie mais avec une liason simple
