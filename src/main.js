@@ -230,7 +230,7 @@ et venez chercher votre salade dans 20min !</p>
 
 <div class=" w-full xl:h-[110vh] opacity-[100%] xl:flex overflow-hidden items-center pb-16">
 <img src="./src/asset/Img-with-sep.png" alt="" class=" w-[280px] h-[280px] m-auto mt-8 md:hidden">
-<div class=" md:flex-wrap 2xl md:w-[575px] 2xl:w-[975px] md:h-[555px] hidden md:flex xl:w-[800px] PC:w-[750px] xl:pl-10 xl:h-[580px] md:m-auto p-8 xl:p-6 justify-between pb-0">
+<div class=" md:flex-wrap 2xl md:w-[575px] 2xl:w-[715px] md:h-[555px] hidden md:flex xl:w-[800px] PC:w-[750px] xl:pl-10 xl:h-[580px] md:m-auto p-8 xl:p-6 justify-between pb-0 ">
 
 <div class="md:w-[250px] md:h-[250px] w-2/4 w-[49%] h-[48%] bg-[url('./src/asset/anh-nguyen-_Uqj5BQb-mw-unsplash.jpg')] md:bg-[length:500px_500px] bg-[length:360px_370px] bg-no-repeat bg-left-top ">
 
