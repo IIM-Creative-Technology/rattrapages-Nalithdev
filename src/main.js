@@ -160,7 +160,7 @@ et venez chercher votre salade dans 20min !</p>
 </div>
 
 <div class="w-full bg-[url('./src/asset/louis-hansel-MlPD-AzZYMg-unsplash.jpg')] bg-cover bg-center bg-no-repeat relative items-center  ">
-<div class="lg:flex lg:justify-center xl:p-28 lg:gap-6 xl:pl-20 md:pl-12 xl:pr-20 text-white md:pt-16 md:pb-16  ">
+<div class="lg:flex lg:justify-center xl:p-28 lg:gap-6 xl:pl-20 md:pl-12 xl:pr-20 text-white md:pt-16 md:pb-16 lg:pl-0  ">
 
 <div class="md:w-[675px]  bg-specialgreen/80 md:h-[460px] md:p-10 p-4 md:mb-10">
 <h2 class="text-white text-5xl text-center">Chez les verts</h2>
@@ -230,7 +230,7 @@ et venez chercher votre salade dans 20min !</p>
 
 <div class=" w-full xl:h-[110vh] opacity-[100%] xl:flex overflow-hidden items-center pb-16">
 <img src="./src/asset/Img-with-sep.png" alt="" class=" w-[280px] h-[280px] m-auto mt-8 md:hidden">
-<div class=" md:flex-wrap 2xl md:w-[575px] 2xl:w-[975px] md:h-[555px] hidden md:flex xl:w-[800px] PC:w-[750px] xl:pl-10 xl:h-[580px] md:m-auto p-8 xl:p-6 justify-between pb-0">
+<div class=" md:flex-wrap 2xl md:w-[575px] 2xl:w-[715px] md:h-[555px] hidden md:flex xl:w-[800px] PC:w-[750px] xl:pl-10 xl:h-[580px] md:m-auto p-8 xl:p-6 justify-between pb-0 ">
 
 <div class="md:w-[250px] md:h-[250px] w-2/4 w-[49%] h-[48%] bg-[url('./src/asset/anh-nguyen-_Uqj5BQb-mw-unsplash.jpg')] md:bg-[length:500px_500px] bg-[length:360px_370px] bg-no-repeat bg-left-top ">
 
@@ -249,21 +249,21 @@ N'hésitez pas à postuler !
 
 </p>
 <form action="" class="xl:flex xl:flex-wrap gap-8 items-center md:pt-4 ">
-<div class="xl:text-start text-lg text-specialgreen">
-<p class="pb-2 md:text-start md:pl-40">Nom</p>
+<div class="xl:text-start text-lg text-specialgreen md:w-[300px] md:m-auto xl:m-0">
+<p class="pb-2 md:text-start  lg:text-start lg:pl-0">Nom</p>
 <input type="text"  class="w-[300px] h-[50px] border-2   p-4">
 </div>
-<div class="xl:text-start text-lg text-specialgreen">
-<p class="pb-2 md:text-start md:pl-40">Prenom</p>
+<div class="xl:text-start text-lg text-specialgreen md:w-[300px] md:m-auto xl:m-0">
+<p class="pb-2 md:text-start  lg:text-start lg:pl-0">Prenom</p>
 <input type="text"  class="w-[300px] h-[50px] border-2  p-4">
 </div>
-<div class="xl:text-start text-lg text-specialgreen md:pb-10 xl:pb-0">
-<p class="pb-2 md:text-start md:pl-10 ">Email</p>
-<input type="text"  class="xl:w-[635px] md:w-[520px] h-[50px] w-11/12 border-2  p-4">
+<div class="xl:text-start text-lg text-specialgreen md:pb-10 xl:m-0 xl:pb-0 md:w-[520px] md:m-auto">
+<p class="pb-2 md:text-start lg:text-start lg:pl-4 xl:pl-0 ">Email</p>
+<input type="text"  class="xl:w-[635px]  h-[50px] w-11/12 border-2  p-4">
 </div>
-<div class="xl:text-start text-lg text-specialgreen">
-<p class="pb-2 md:text-start md:pl-10">Votre motivation en quelques mots</p>
-<textarea name="" id="" cols="30" rows="10" class="xl:w-[635px] md:w-[520px] h-[100px] w-11/12 border-2  p-4"></textarea>
+<div class="xl:text-start text-lg text-specialgreen md:w-[520px] md:m-auto mg:pl-0 xl:m-0">
+<p class="pb-2 md:text-start lg:pl-4 xl:pl-0 ">Votre motivation en quelques mots</p>
+<textarea name="" id="" cols="30" rows="10" class="xl:w-[635px]  h-[100px] w-11/12 border-2  p-4"></textarea>
 </div>
 </form> 
 

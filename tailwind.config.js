@@ -25,6 +25,9 @@ export default {
       screens: {
         'PC': '1440px',
         // => @media (min-width: 1440px) { ... }
+        'MyPC': '1525px',
+        // => @media (min-width: 1518px) { ... }
+
       },
 
 
