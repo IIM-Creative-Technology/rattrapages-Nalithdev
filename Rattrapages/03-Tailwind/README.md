@@ -1,8 +1,10 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/sx0do6kF)
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)]
+(https://classroom.github.com/a/sx0do6kF)
 
 ##Lien vidéo présentation projet
 
 https://www.loom.com/share/bd2e479e1af94c72ba268f8e64274412?sid=7d9e3b00-2cc8-4d4a-9b0a-9b05c8dc7e87
+https://www.loom.com/share/0953ed780c1a45edb741eb78f3b70413?sid=78771f38-008e-4719-a150-037e544e8b6a
 
 # Ethan Delcroix Rattrapage Tailwind
 
