@@ -3,6 +3,10 @@ import '../style.css'
 
 
 document.querySelector('#app').innerHTML = `
+
+
+
+<!-- First block  -->
     <div class="h-screen bg-[url('./src/asset/image.png')] bg-cover w-full bg-no-repeat ">
     <div class="bg-gradient-to-br from-specialblue to-specialgreen h-screen w-full absolute opacity-[60%] ">
     </div>
@@ -13,7 +17,7 @@ document.querySelector('#app').innerHTML = `
     <img src="./src/asset/mangoo.png" alt="mangoo" class="w-72 h-36 p-8 xl:flex hidden">
     <span class="text-white absolute text-3xl top-5 right-5 md:hidden" onclick="openBurg()">&#9776;</span>
     <nav class="hidden md:block  burg" ">
-    <ul class="md:flex md:gap-8 p-8 text-lg block md:relative absolute right-0 top-0 w-full h-screen bg-black z-10 md:z-0 md:w-auto md:h-auto md:bg-transparent">
+    <ul class="md:flex md:gap-8 p-8 text-lg block md:relative absolute right-0 top-0 w-full h-screen bg-specialblue z-10 md:z-0 md:w-auto md:h-auto md:bg-transparent">
      <a href="javascript:void(0)" class="md:hidden text-xl pb-4 md:pb-0 text-white" onclick="closeBurg()">&times;</a>
     <li><a href="#" class=" text-white hover:underline hover:underline-offset-2 hover:text-white ">Accueil</a></li>
     <li><a href="#" class=" text-white hover:underline hover:underline-offset-2 hover:text-white ">Qui sommes-nous ?</a></li>
@@ -36,7 +40,7 @@ document.querySelector('#app').innerHTML = `
     
     
     
-    
+   <!-- Seconde block  --> 
 <div class="flex w-full h-screen  items-center bg-[url('./src/asset/61842.jpg')] bg-[length:400px_300px] absolute z-[-2] ">
 
 <div class="bg-white opacity-[80%] absolute w-full h-screen z-[-1]">
@@ -68,6 +72,9 @@ Depuis maintenant 10 ans, MONGOO fait le bonheur des gourmets et des gourmands, 
 </div>
 
 
+
+
+<!-- Third block  -->
 <div class="w-full h-screen bg-[url('./src/asset/ismael-trevino-NDyuR4Huig8-unsplash.png')] bg-cover bg-no-repeat relative  ">
 <div class=" bg-specialgreen/80 md:w-[600px] md:h-[600px] m-auto h-full w-full  absolute p-10 text-center  md:right-20 xl:right-40 xl:bottom-16 md:bottom-6">
 <h2 class="md:text-6xl text-3xl text-white">Préparé sur place et avec amour</h2>  
@@ -89,6 +96,11 @@ Alors faites votre choix !</p>
 </div>
 
 </div>
+
+
+<!-- Fouth block  -->
+
+
 <div class="w-full h-auto bg-[url('./src/asset/pattern.png')] relative bg-[length:1300px_1000px] items-center  ">
 <h2 class="text-6xl text-specialgreen text-center pt-20 font-['poppinssemibold']  font-semi-bold">Vous avez dit menu ?</h2>
 <p class="text-center xl:p-[380px] md:p-40 md:pb-10 md:pt-10 pb-10 pt-10 text-lg xl:pt-10 xl:pb-4">Un menu MONGOO, c'est une salade accompagnée d'une boisson et d'un dessert.
@@ -159,6 +171,9 @@ et venez chercher votre salade dans 20min !</p>
 
 </div>
 
+
+<!-- Fifth block  -->
+
 <div class="w-full bg-[url('./src/asset/louis-hansel-MlPD-AzZYMg-unsplash.jpg')] bg-cover bg-center bg-no-repeat relative items-center  ">
 <div class="lg:flex lg:justify-center xl:p-28 lg:gap-6 xl:pl-20 md:pl-12 xl:pr-20 text-white md:pt-16 md:pb-16 lg:pl-0  ">
 
@@ -220,6 +235,11 @@ et venez chercher votre salade dans 20min !</p>
 </div> 
 
 
+
+
+<!-- Sixth block  -->
+
+
 <div class="flex w-full h-[120vh]  items-center bg-[url('./src/asset/61842.jpg')] bg-[length:400px_300px] absolute z-[-2] ">
 
 <div class="bg-white opacity-[80%] absolute w-full h-[120vh] z-[-1]">
@@ -274,6 +294,10 @@ N'hésitez pas à postuler !
 
 </div>
 </div>
+
+
+<!-- Seventh block  -->
+
 <footer class=" bg-specialgreen md:h-[300px] w-full text-white text-center">
 <div class="flex justify-around items-center md:pt-20 md:text-xl text-sm pt-10 pb-6">
 <img src="./src/asset/mangoo.png" alt="Mangoo" class="w-[300px] h-[100px] xl:flex hidden">
